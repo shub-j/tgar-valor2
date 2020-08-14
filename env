@@ -1,1 +1,2 @@
-TOKEN = NzA3MDg0NzAxMjE4NjM1ODc3.XrDp8Q.WO4_iyhbpwWwDbrTj5xuyRSQU_k
+env:
+  TOKEN: NzA3MDg0NzAxMjE4NjM1ODc3.XrDp8Q.WO4_iyhbpwWwDbrTj5xuyRSQU_k
