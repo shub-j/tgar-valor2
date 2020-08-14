@@ -15,7 +15,7 @@ const express = require('express')
 // Set up the sharding manager, a helper class that separates handling
 // guilds into grouped processes called Shards.
 let shardingManager = new Discord.ShardingManager(path.join(__dirname, 'Shard.js'), {
-  token: "NzA3MDg0NzAxMjE4NjM1ODc3.XrDp8Q.syuUtOmDKZIuKnSVhX5VjXwtrlw",
+ token: process.env.TOKEN,
   totalShards: config.totalShards || 'auto',
   shardArgs: typeof v8debug === 'object' ? ['--inspect'] : undefined
 })
